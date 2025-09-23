@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "Api.Application\application.csproj", "{D356CC47-41EE-4B95-8457-AD3D19A77F0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "Api.Application\API.csproj", "{D356CC47-41EE-4B95-8457-AD3D19A77F0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Api.Domain\Domain.csproj", "{B407993A-284E-4949-9308-D4E2A5BA92A6}"
 EndProject
@@ -21,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D356CC47-41EE-4B95-8457-AD3D19A77F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +83,11 @@ Global
 		{BE402640-A076-4010-909D-8E9EAFF08A8D}.Release|x64.Build.0 = Release|Any CPU
 		{BE402640-A076-4010-909D-8E9EAFF08A8D}.Release|x86.ActiveCfg = Release|Any CPU
 		{BE402640-A076-4010-909D-8E9EAFF08A8D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5449D0D7-6734-4B40-93BC-9843D1821131}
 	EndGlobalSection
 EndGlobal
