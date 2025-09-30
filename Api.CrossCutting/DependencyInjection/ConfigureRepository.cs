@@ -13,6 +13,7 @@ namespace Api.CrossCutting.DependencyInjection
             //serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             //services.AddScoped(ICustomerRepository, CustomerRepository)();
             serviceCollection.AddScoped<ICustomerRepository, CustomerRepository>();
+            serviceCollection.AddScoped<IUserRepository, UserRepository>();
 
             serviceCollection.AddDbContext<MyContext>(
                 options => options.UseSqlServer("Data Source=DELL-CLASSIC;Database=NORTHWND;User ID=sa; Password=classic1*; Trusted_Connection=True; TrustServerCertificate=True;")
