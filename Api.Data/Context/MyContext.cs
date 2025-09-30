@@ -17,7 +17,7 @@ namespace Api.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<CustomerEntity>(new CustomerMap().Configure);
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure);
         }
 
     }
